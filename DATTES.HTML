@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تمور المجهول الرفيعة تافيلالت</title>
+    <link rel="stylesheet" href="DATTES.CSS">
+    <script lang="javascript" type="text/javascript">
+        (function() {
+            window.$B = window.Bobcat = {};
+
+            $B.timerStart = new Date().getTime();
+
+            $B.timerCheck = function(label) {
+                var ms, msg;
+                ms = new Date().getTime() - $B.timerStart;
+                msg = "[TIMER] " + label + " in " + ms + "ms";
+                (typeof $B.log === "function" ? $B.log(msg) : void 0) || (typeof console !== "undefined" && console !== null ? typeof console.log === "function" ? console.log(msg) : void 0 : void 0);
+                return ms;
+            };
+
+        }).call(this);
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#about">عنّا</a></li>
+                <li><a href="#products">المنتجات</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>تمور المجهول الرفيعة تافيلالت</h1>
+        <p>نقدم لكم تمور المجهول الرفيعة تافيلالت الطازجة والممتازة</p>
+        <button>اشتري الآن</button>
+    </section>
+    <section id="about">
+        <h1>عنّا</h1>
+        <p>نحن شركة متخصصة في بيع تمور المجهول الرفيعة تافيلالت</p>
+        <p>نحن نضمن لكم جودة المنتجات وسرعة التوصيل</p>
+    </section>
+    <section id="products">
+        <h1>المنتجات</h1>
+        <div class="product">
+            <img src="tam1.jpg" alt="تمور المجهول الرفيعة تافيلالت">
+            <h2>تمور المجهول الرفيعة تافيلالت الطازجة</h2>
+            <p>سعر50dhر</p>
+            <button>اشتري الآن</button>
+        </div>
+        <div class="product">
+            <img src="tam2.jpg" alt="تمور المجهول الرفيعة تافيلالت">
+            <h2>تمور المجهول الرفيعة تافيلالت الممتازة</h2>
+            <p>سعر: 20 دولار</p>
+            <button>اشتري الآن</button>
+        </div>
+        <div class="product">
+            <img src="tam3.jpg" alt="تمور المجهول الرفيعة تافيلالت">
+            <h2>تمور المجهول الرفيعة تافيلالت العضوية</h2>
+            <p>سعر: 30 دولار</p>
+            <button>اشتري الآن</button>
+        </div>
+    </section>
+    <section id="contact">
+        <h1>اتصل بنا</h1>
+        <p>هاتف: 0123456789</p>
+        <p>بريد إلكتروني: info@example.com</p>
+    </section>
+    <div class="container">
+        <h2>فيديوهات عن التمور</h2>
+        <div class="videos">
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- استبدل VIDEO_ID_1 و VIDEO_ID_2 بروابط الفيديوهات الخاصة بك -->
+        </div>
+    </div>
+    <footer>
+        <p>جميع الحقوق محفوظة لشركة تمور المجهول الرفيعة تافيلالت</p>
+    </footer>
+</body>
+
+</html>
